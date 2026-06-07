@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemap Location
+Sitemap: https://classroomelite.online/sitemap.xml
+
+# Strategic Disallow (Protecting source assets but allowing indexing)
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /api/

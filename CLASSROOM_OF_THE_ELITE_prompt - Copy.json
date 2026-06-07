@@ -1,0 +1,47 @@
+{
+  "project_variables": {
+    "manga_name": "Classroom of the Elite",
+    "seasons": [
+      {
+        "id": "y1",
+        "name": "1st Year",
+        "folder": "Classroom of the Elite",
+        "chapter_count": 80
+      },
+      {
+        "id": "y2",
+        "name": "2nd Year",
+        "folder": "Classroom of the Elite - 2nd Year",
+        "chapter_count": 55
+      }
+    ],
+    "website_name": "Classroom Elite Online",
+    "domain": "https://classroomelite.online/",
+    "google_tag_id": "G-0NVX5DV7CE"
+  },
+  "visual_identity": {
+    "primary_color": "#8b0000",
+    "secondary_color": "#0d1117",
+    "accent_gold": "#d4af37",
+    "dark_bg": "#050505",
+    "font_heading": "'Montserrat', sans-serif",
+    "font_body": "'Inter', sans-serif",
+    "ui_style": "High-Tech Academic Terminal"
+  },
+  "generation_prompts": {
+    "landing_page_ui": "Build a multi-session landing page with Tailwind 4.1. 1. SWITCHER: Create a prominent, futuristic 'Year Selector' toggle (Year 1 vs Year 2) using Tailwind's 'peer-checked' states for instant UI swapping. 2. HERO: Use a dynamic A/B split background. Left side: Year 1 (Blue/Cold), Right side: Year 2 (Red/Intense). 3. CHAPTER ARCHIVE: Create two separate grid containers. Year 1 chapters use a standard Student ID layout; Year 2 chapters use an 'Advanced Level' layout with sharper borders and gold accents to signify the higher stakes. 4. TECHNICAL: Use HTML5 <section> tags with unique IDs for each year to maximize SEO crawling for both 'Year 1' and 'Year 2' keywords.",
+    "master_seo_article": "Generate a 12,000-word comprehensive guide. Part A: The foundation of Year 1 and the rise of Class D. Part B: The shift into the 2nd Year, new characters (Nagumo, Ichika), and the change in school rules. Use semantic HTML only. Target keywords: 'Classroom of the Elite 2nd Year manga online', 'COTE Year 2 all chapters', 'Ayanokouji Year 2 vs Year 1'."
+  },
+  "technical_architectures": {
+    "folder_routing": "Create a script that maps the 'Classroom of the Elite' folder to /manga/year-1/ and 'Classroom of the Elite - 2nd Year' to /manga/year-2/. Ensure all image paths are relative and optimized via WebP.",
+    "tailwind_4_logic": "Implement Tailwind 4.1 'Dynamic Viewports' to ensure the Year-Switcher is always sticky on mobile devices for easy navigation between the two seasons."
+  },
+  "design_aesthetics": {
+    "feel": "Elite, Fragmented, Psychological, Dualistic",
+    "interactive_elements": [
+      "Smooth slide-transition when switching between Year 1 and Year 2",
+      "Progressive loading bar indicating how many chapters are read in each session",
+      "Character profiles that change 'status' based on which year is selected"
+    ]
+  }
+}

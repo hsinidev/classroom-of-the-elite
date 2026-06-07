@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Classroom Elite Online</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { background: #050505; color: #d1d5db; font-family: 'Inter', sans-serif; line-height: 1.8; }
+        .academic-terminal::before {
+            content: ""; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
+            background-size: 100% 4px, 3px 100%; pointer-events: none; z-index: 50; opacity: 0.1;
+        }
+    </style>
+</head>
+<body class="academic-terminal min-h-screen flex flex-col">
+    <header class="bg-black/80 backdrop-blur-xl border-b border-white/5 px-6 py-6 text-center">
+        <a href="/" class="text-2xl font-black text-white italic tracking-tighter uppercase no-underline">
+            Classroom Elite <span class="text-red-500">Online</span>
+        </a>
+    </header>
+
+    <main class="flex-grow container mx-auto max-w-4xl px-6 py-16">
+        <h1 class="text-4xl md:text-6xl font-black text-white mb-12 uppercase italic border-l-8 border-red-600 pl-8">About the Project</h1>
+        <div class="prose prose-invert prose-red max-w-none">
+            <h2>The Advanced Strategic Terminal</h2>
+            <p><strong>Classroom of the Elite Online</strong> is more than a reading platform; it is a meticulously designed data hub for the series' most dedicated analysts. Our mission is to provide high-quality access to both Year 1 and Year 2 manga chapters while maintaining an atmosphere of intellectual rigor.</p>
+            <h3>Our Objective</h3>
+            <p>Borrowing the 'OAA' (Over-All Ability) philosophy from the Advanced Nurturing High School, we focus on three core pillars: Performance, Precision, and Perception. Our terminal is optimized for speed and clarity, mirroring the high-stakes world of Kiyotaka Ayanokouji.</p>
+            <h3>Project Architecture</h3>
+            <p>The site relies on a static-build terminal system, ensuring that your strategic data remains locally accessible and fast-loading. Every module, from the chapter reader to the deep-dive theory guides, is built for maximum tactical advantage.</p>
+            <p class="mt-8 pt-8 border-t border-white/10 text-xs italic">Established: 2026 // Classroom Elite Online LLC</p>
+        </div>
+    </main>
+
+    <footer class="bg-black py-12 border-t border-white/5 text-center px-6">
+        <nav class="flex flex-wrap justify-center gap-6 mb-8 text-[10px] font-black tracking-widest uppercase">
+            <a href="privacy.html" class="hover:text-red-500 transition-colors">Privacy</a>
+            <a href="dmca.html" class="hover:text-red-500 transition-colors">DMCA</a>
+            <a href="terms.html" class="hover:text-red-500 transition-colors">Terms</a>
+            <a href="cookies.html" class="hover:text-red-500 transition-colors">Cookies</a>
+            <a href="disclaimer.html" class="hover:text-red-500 transition-colors">Disclaimer</a>
+            <a href="about.html" class="hover:text-red-500 transition-colors">About</a>
+            <a href="contact.html" class="hover:text-red-500 transition-colors">Contact</a>
+        </nav>
+        <p class="text-white/20 text-[10px] uppercase tracking-widest leading-loose">&copy; 2026 Classroom Elite Online // Strategic Data Terminal</p>
+    </footer>
+</body>
+</html>
