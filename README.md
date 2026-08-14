@@ -1,18 +1,22 @@
 <div align="center">
-# 🚀 Classroom Of The Elite
-### *High-Performance Interactive Web Experience & Canvas Engine*
 
-<p align="center">
-  [![Architect](https://img.shields.io/badge/Architect-Hsini%20Mohamed-0055ff?style=for-the-badge&logo=github&logoColor=white)](https://hsini.dev)
-  [![Portfolio](https://img.shields.io/badge/Portfolio-hsini.dev-00c853?style=for-the-badge&logo=google-chrome&logoColor=white)](https://hsini.dev)
-  [![Language](https://img.shields.io/badge/Language-HTML-f59e0b?style=for-the-badge)](https://github.com/hsinidev)
-  [![Framework](https://img.shields.io/badge/Framework-WebGL%20/%20HTML5%20Canvas-6366f1?style=for-the-badge)](https://github.com/hsinidev)
-  [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-</p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=180&section=header&text=Classroom%20Of%20The%20Elite&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=38" width="100%" style="max-width: 100%; border-radius: 12px; margin-bottom: 20px;" alt="Classroom Of The Elite Header Banner" />
+
+  <h1>🚀 Classroom Of The Elite</h1>
+  <p><em>High-Performance Interactive Web Experience & Canvas Engine</em></p>
+
+  <p align="center">
+    <a href="https://hsini.dev"><img src="https://img.shields.io/badge/Architect-Hsini%20Mohamed-0055ff?style=for-the-badge&logo=github&logoColor=white" alt="Architect: Hsini Mohamed" /></a>
+    <a href="https://hsini.dev"><img src="https://img.shields.io/badge/Portfolio-hsini.dev-00c853?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio: hsini.dev" /></a>
+    <a href="https://github.com/hsinidev"><img src="https://img.shields.io/badge/Language-HTML-e34c26?style=for-the-badge" alt="Language: HTML" /></a>
+    <a href="https://github.com/hsinidev"><img src="https://img.shields.io/badge/Framework-WebGL%20/%20HTML5%20Canvas-6366f1?style=for-the-badge" alt="Framework: WebGL / HTML5 Canvas" /></a>
+    <a href="https://github.com/hsinidev/classroom-of-the-elite"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License: MIT" /></a>
+  </p>
 
 </div>
 
 ---
+
 ## 🌟 Executive Overview
 
 **Classroom Of The Elite** delivers a fast, responsive, and cross-platform browser experience built with **HTML** and hardware-accelerated canvas rendering.
@@ -25,6 +29,7 @@
 - **Local Storage State**: Automatic session persistence and state restoration.
 
 ---
+
 ## 🏗️ Architecture & Technology Stack
 
 - **Primary Language**: `HTML`
@@ -32,79 +37,6 @@
 - **Design Pattern**: Modular Clean Architecture / Domain-Driven Design
 - **License**: MIT Open Source Attribution
 
-## 📖 Deep-Dive Technical Documentation
-
-# Classroom of the Elite Online
-
-> **Vibe Focus:** Strategic Academic / Cyber-Terminal Aesthetic  
-> **Tech Stack:** Static HTML/JS + Tailwind CSS 4.0 + Python Generators
-
-Welcome to the **Classroom of the Elite Online** web portal. This is a high-performance, immersive manga reader site designed specifically for fans of the series. The project leverages modern web optimization techniques to deliver a fast, localized, and beautiful experience.
-
----
-
-## 🌟 Key Features
-
-- Academic-terminal layout with CSS crt-scanline overlays.
-- Immersive dark-mode reader view with smooth progress tracking.
-- Complete SEO localization for US, FR, and JP markets.
-- Automated Rich Snippet schemas (ComicSeries structured data) for SEO.
-
----
-
-## 🛠️ Getting Started
-
-### 📋 Prerequisites
-- **For Web Server:** Python 3.10+ (to serve static files or run generators) or Node.js 18+ (if package dependencies are needed).
-- **GitHub CLI (`gh`)**: Recommended for pushing updates.
-
-### 🔑 API Key Configuration
-This project includes automated content generation and SEO optimization scripts that use the **Zhipu AI / BigModel API**. 
-
-To utilize these scripts:
-1. Copy the `.env.example` file to create a `.env` file:
-   ```bash
-   cp .env.example .env
-   ```
-2. Open `.env` and fill in your API key:
-   ```env
-   BIGMODEL_API_KEY=your_actual_api_key_here
-   ```
-   *Note: If you have multiple keys, you can specify them as a comma-separated list.*
-
----
-
-## 🚀 Local Development
-
-Start a local static server:
-```bash
-python -m http.server 8000
-```
-
-Then open your browser and navigate to the local server URL (usually `http://localhost:8000` or `http://localhost:5173`).
-
----
-
-## 🤖 Content Generation & Automation
-The project is equipped with local AI-powered generation scripts to build and update the site content dynamically.
-
-You can run these scripts to regenerate and optimize the portal content:
-
-- **`python generate_legal_pages.py`**: Generates Privacy, DMCA, Cookies, and Terms pages via AI.
-- **`python generate_seo_article.py`**: Synthesizes the primary SEO text for the landing page.
-- **`python generate_all_chapter_articles.py`**: Compiles chapter analysis and review summaries.
-
-
----
-
-## 📦 Production Deployment
-
-This is a static site. Deploy the root files directly to Netlify, Vercel, or Nginx.
-
-- **Ignored Assets:** Large `manga/` chapter image directories and local archives are excluded from this repository (configured in `.gitignore`) for performance and size constraints. Ensure image files are uploaded directly to your hosting server's path structure.
-- **SEO Ready:** Sitemap (`sitemap.xml`) and `.htaccess` file rules are fully configured to rewrite paths and provide Google-friendly crawler access.
-
----
 ## 🚀 Quick Start & Installation
 
 ### 1. Clone the Repository
